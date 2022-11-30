@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina de doces</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="maquina">Máquina de doces</button><button id="elevador">Elevador</button>
+
+
+    <section id = "secelevador">
+        <header>
+            <h1>Simulador Automato Elevador</h1>
+        </header>
+            <div class="container">
+
+                <div class="child3"><legend>3º andar</legend><br><input type="checkbox" name="3andar" id="3andar" >
+                <label for="3andar">Chamar Elevador</label></div>
+
+               
+                <div  class="child2"><legend>2º andar</legend><br><input type="checkbox" name="2andar" id="2andar" >
+                <label for="2andar">Chamar Elevador</label></div>
+                
+                
+                <div  class="child1"><legend>1º andar</legend><br><input type="checkbox" name="1andar" id="1andar">
+                <label for="1andar">Chamar Elevador</label></div>
+                    
+              
+                <div  class="childt"><legend>Térreo</legend><br><input type="checkbox" name="terreo" id="terreo">
+                    <label for="terreo">Chamar Elevador</label></div>
+                
+                
+                    <div class="container2" id="container2">
+                    <p>Painel do Elevador</p>
+                <input type="checkbox" name="b3andar" value="3 Andar" id="b3andar">
+                    <label for="b3andar">3</label><br>
+                    <input type="checkbox" name="b2andar" value="2 Andar" id="b2andar" >
+                    <label for="b2andar">2</label><br>
+                    <input type="checkbox" name="b1andar" value="1 Andar" id="b1andar">
+                    <label for="b1andar">1</label><br>
+                    <input type="checkbox" name="terreo" value="terreo" id="bterreo">
+                    <label for="terreo">T</label></div>
+
+            </div>
+
+            
+                
+        </fieldset>
+        <input class='botaoiniciar' type="button" id="sub" value="iniciar" onclick="iniciar()">
+        <div id="divcria">
+
+        </div>
+    </section>
+    
+    <section id = "secmaquina">
+    <header>
+        <h1>Máquina de Doces</h1>
+    </header>
+               <fieldset>
+                <legend>Caixa</legend>
+            
+                <div>
+                   <input type="button" id="b1" value="R$ 1,00" enable value="1" onclick="um()">
+                   <input type="button" id="b2" value="R$ 2,00" enable value="2" onclick="dois()">
+                   <input type="button" id="b5"value="R$ 5,00" enable value="3"onclick="cinco()">
+                </div>
+               </fieldset>
+               <fieldset>
+                <legend>Saldo</legend>
+            
+                <div id="divzada">
+                   
+                </div>
+               </fieldset>
+            <fieldset>
+                <legend>Doces</legend>
+            
+                <div>
+                    <input type="radio" id="doce1" name="doce" disabled value="doce 1" onclick="botaoum()">
+                    <label for="doce">Doce A</label> R$ 6,00<br>
+                    <input type="radio" name="doce" id="doce2" disabled value="doce 2" onclick="botaodois()">
+                    <label for="doce">Doce B</label> R$ 7,00<br>
+                    <input type="radio" name="doce" id="doce3" disabled value="doce 3" onclick="botaocinco()">
+                    <label for="doce">Doce C</label> R$ 8,00
+                </div>
+            </fieldset> 
+            <div id="divres">
+                
+            </div>       
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

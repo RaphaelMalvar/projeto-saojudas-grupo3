@@ -1,0 +1,95 @@
+body{
+    background: rgb(255, 255, 255);
+    font: normal 14pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+p{
+    font:  18px Arial;
+    font-weight: bold;
+    
+}
+
+section#secmaquina{
+    background: rgb(113, 131, 231);
+    border-radius: 15px;
+    padding: 50px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.377);
+    display: none;
+}
+section#secelevador{
+    background: rgb(6, 145, 238);
+    border-radius: 15px;
+    padding: 50px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.377);
+    display: none;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+div#divzada{
+    text-transform: uppercase;
+}
+
+section#secanalisador{
+    background: rgb(6, 145, 238);
+    border-radius: 15px;
+    padding: 50px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.377);
+    display: none;
+}
+
+.childt{
+    width: 20%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(79, 50, 131);
+    border: 1px solid black;
+}
+.child1{
+    width: 20%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(79, 50, 131);
+    border: 1px solid black;
+}
+.child2{
+    width: 20%;
+    position: relative;
+    height: 200px;
+    background-color: rgb(79, 50, 131);
+    border: 1px solid black;
+}
+.child3{
+    width: 20%;
+    position: relative;
+    height: 200px;
+    background-color: rgb(79, 50, 131);
+    border: 1px solid black;
+}
+
+.container2{
+    display: none;
+    left: 200px;
+    bottom: 150px;
+    position: relative;
+    background-color: red;
+    height: 170px;
+    width: 100px;
+
+
+}

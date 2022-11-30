@@ -1,0 +1,2 @@
+idade i if ; : = while
+for let 20 5.5 x1 a var
